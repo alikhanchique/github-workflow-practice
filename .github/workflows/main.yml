@@ -9,5 +9,9 @@ jobs:
     steps:
     - name: Lint check 
       run: echo "Lint passed"
+    - name: Build project
+      run: echo "BUild complete"
+    -name: Check README
+      run: grep "project" README.md 
 
     
